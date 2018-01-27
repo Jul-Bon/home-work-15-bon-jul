@@ -68,9 +68,9 @@
                  width="<?php echo get_custom_header()->width; ?>" alt="Adam Suaere Lawyer"/>
             <div class="headline_position">
                 <div class="headline clearfix">
-                    <h1 class="main_text"><?php bloginfo('name') ?><span
-                                class="lawyer"><?php bloginfo('description') ?></span></h1>
-                    <a href="<?php echo get_theme_mod('url_button') ?>" class="contact_button"><?php echo get_theme_mod('text_button') ?></a>
+                    <h1 class="main_text"><?php bloginfo('name'); ?><span
+                                class="lawyer"><?php bloginfo('description'); ?></span></h1>
+                    <a href="<?php echo get_theme_mod('url_button'); ?>" class="contact_button"><?php echo get_theme_mod('text_button'); ?></a>
                 </div>
             </div>
         </div>
