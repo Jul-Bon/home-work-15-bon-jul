@@ -1,0 +1,727 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: #666666;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* NAVIGATION*/
+
+.menu_container {
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 168px;
+    float: left;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    padding-top: 10px;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu-item a {
+    color: #111111;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.menu-item a:hover {
+    border-bottom: 5px solid #e8bf5d;
+}
+.current-menu-item {
+    color: red;
+}
+
+/* MAIN IMAGE */
+
+.main_img {
+    position: relative;
+}
+
+.headline_position {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    bottom: 10%;
+}
+
+.headline {
+    max-width: 800px;
+}
+
+h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 46px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    padding-left: 15px;
+    border-left: 2px solid #e8bf5d;
+    margin: 0;
+    float: left;
+}
+
+.lawyer {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.headline a.contact_button {
+    display: inline-block;
+    max-width: 180px;
+    max-height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #e8bf5d;
+    color: #111111;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 14px 40px 14px 40px;
+    margin: 25px 0;
+    float: right;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/*----- SECTION -----*/
+
+.position {
+    position: relative;
+}
+
+.number {
+    display: block;
+    color: #111111;
+    font-size: 195px;
+    line-height: 180px;
+    letter-spacing: 10px;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+}
+
+.caption {
+    max-width: 800px;
+    border-left: 3px solid #e8bf5d;
+    display: block;
+    position: relative;
+    top: 35px;
+}
+
+.caption h2 {
+    color: #111111;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 31px;
+    letter-spacing: 1px;
+    padding: 0 20px 10px;
+}
+
+.caption p {
+    max-width: 800px;
+    color: #666666;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 10px 20px 0;
+}
+
+/*----- 01 Section About -----*/
+
+.about {
+    padding: 80px 0 100px;
+}
+
+.box {
+    max-width: 540px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 70px;
+}
+
+.box h3 {
+    color: #111111;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 21px;
+    padding: 40px 0 35px;
+}
+
+dt {
+    color: #111111;
+    font-size: 21px;
+    font-weight: 700;
+    padding-top: 16px;
+    display: inline;
+}
+
+dd {
+    color: #111111;
+    font-size: 16px;
+    display: inline-block;
+    max-width: 420px;
+    padding: 30px 20px 0;
+}
+
+.box p {
+    max-width: 460px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.second {
+    padding-right: 20px;
+}
+
+/*----- 02 Section Practis Area -----*/
+
+.practis_area {
+    padding: 80px 0 100px;
+}
+
+.practis_area {
+    background-color: #111111;
+}
+
+.practis_area .number {
+    color: #ffffff;
+}
+
+.practis_area .caption h2 {
+    color: #ffffff;
+}
+
+.practis_area .caption p {
+    color: #b9b9b9;
+}
+
+.services {
+    margin: 80px 0 0 80px;
+}
+
+.service_part {
+    display: inline-block;
+}
+
+.icon_limiter {
+    color: #e8bf5d;
+    font-family: "Font Awesome";
+    font-size: 45px;
+    font-weight: 400;
+    float: left;
+}
+
+.about_service {
+    max-width: 340px;
+    color: #ffffff;
+    float: left;
+    margin: 0 0 70px 30px;
+}
+
+.about_service h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 21px;
+    line-height: 31px;
+    padding-bottom: 30px;
+}
+
+.about_service p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.space {
+    margin-right: 100px;
+}
+
+/*----- 03 Section Meet Our Attorney -----*/
+
+.team {
+    padding: 80px 0 100px;
+}
+
+.team_foto {
+    max-width: 240px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.team_list {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-top: 70px;
+}
+
+.team_list h5 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #111111;
+    padding-top: 30px;
+}
+
+.position_held {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    display: block;
+    padding-top: 10px;
+}
+
+/*----- 04 Section Our Clients Say -----*/
+
+.clients .container {
+    padding: 80px 0 140px;
+}
+
+.clients {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.clients .number {
+    color: #ffffff;
+}
+
+.clients .caption h2 {
+    color: #ffffff;
+}
+
+.clients .caption p {
+    color: #b9b9b9;
+}
+
+.customer_reviews {
+    margin-top: 90px;
+}
+
+.yellow_square {
+    max-width: 370px;
+    max-height: 300px;
+    background-color: #e8bf5d;
+    margin: 30px;
+    display: inline-block;
+}
+
+.clients_photo {
+    max-width: 370px;
+    height: auto;
+    position: relative;
+    top: -30px;
+    left: -30px;
+}
+
+.review {
+    display: inline-block;
+    max-width: 640px;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.clients_say {
+    font-size: 14px;
+    line-height: 31px;
+    text-align: justify;
+    position: relative;
+    padding: 0 10px 10px 45px;
+}
+
+.clients_say:before {
+    content: "\201C";
+    opacity: 0.25;
+    color: #ffffff;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 86px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.clients_say footer {
+    padding-top: 40px;
+}
+
+.review h5 {
+    padding: 0;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.review span {
+    padding-left: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.slider {
+    text-align: center;
+}
+
+.slider li {
+    list-style: none;
+    display: inline-block;
+}
+
+/*----- 05 Section Recent Publications -----*/
+
+.publications .container {
+    padding: 80px 0 100px;
+}
+
+.articles_block {
+    margin-top: 120px;
+}
+
+.articles_block a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.article_description {
+    max-width: 330px;
+    margin-right: 30px;
+    display: inline-block;
+    border-bottom: 3px solid #e8bf5d;
+}
+
+.publication_image {
+    max-width: 330px;
+    height: auto;
+}
+
+.article_description h3 {
+    color: #111111;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 21px;
+    line-height: 31px;
+    margin-top: 20px;
+}
+
+.article_description h4 {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.author {
+    color: #111111;
+    font-style: normal;
+}
+
+.date {
+    float: right;
+}
+
+.article_description p {
+    font-size: 14px;
+    line-height: 31px;
+}
+
+.last_section {
+    font-size: 16px;
+    padding: 30px 0 20px;
+    color: #111111;
+}
+
+.last_section .fa {
+    float: none;
+}
+
+.comments {
+    float: left;
+}
+
+.share {
+    float: right;
+}
+
+/*----- 06 Section Frequently asked questions -----*/
+
+.asked_questions .container {
+    padding: 80px 0 160px;
+}
+
+.asked_questions {
+    background-color: #111111;
+}
+
+.asked_questions .number {
+    color: #ffffff;
+}
+
+.asked_questions h2 {
+    color: #ffffff;
+}
+
+.asked_questions p {
+    color: #b9b9b9;
+}
+
+.questions_part {
+    margin-top: 80px;
+}
+
+.list_questions {
+    width: 50%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list_questions a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding: 15px 0 10px;
+    border-bottom: 3px solid #e8bf5d;
+    border-radius: 1px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.list_questions a:focus {
+    color: #e8bf5d;
+}
+
+.question {
+    float: left;
+}
+
+.list_questions .fa {
+    float: right;
+}
+
+.answer-container {
+    width: 50%;
+    float: left;
+}
+
+p.answer {
+    vertical-align: bottom;
+    display: inline-block;
+    width: 450px;
+    margin-left: 40px;
+    background-color: #e8bf5d;
+    padding: 40px 30px 70px;
+    color: #111111;
+    font-size: 14px;
+    line-height: 31px;
+}
+
+/*----- 07 Section Feel Free to Contact -----*/
+
+.contact .container {
+    margin: 80px auto 80px;
+}
+
+.form {
+    max-width: 830px;
+    background-color: #ffffff;
+    margin: 50px auto 50px 150px;
+    box-shadow: 0 12px 40px rgba(104, 86, 42, 0.1);
+    border-radius: 3px;
+}
+
+.message_form {
+    width: 300px;
+    padding: 75px 25px 50px 50px;
+    display: inline-block;
+}
+
+.message_form ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.message_form li {
+    margin-top: 15px;
+}
+
+.form_input {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+textarea {
+    resize: none;
+}
+
+/*----- placeholder -----*/
+
+::-webkit-input-placeholder { /* Chrome/Safari */
+    color: #b9b9b9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #b9b9b9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: #b9b9b9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #b9b9b9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/*----- placeholder ended -----*/
+
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    border: none;
+    background-color: #e8bf5d;
+    border-radius: 25px;
+    width: 170px;
+    height: 50px;
+    color: #111111;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.map {
+    max-width: 360px;
+    padding: 75px 60px 50px 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.location {
+    max-width: 360px;
+    background-color: #e8bf5d;
+}
+
+.map_image {
+    max-width: 370px;
+    height: auto;
+    position: relative;
+    right: -30px;
+    top: -30px;
+}
+
+/*----- Footer -----*/
+
+.footer {
+    background-color: #111111;
+}
+
+.footer_part {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.copyright {
+    color: #b5b5b5;
+    font-family: "Lato", "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    float: left;
+}
+
+.social_networks a {
+    text-decoration: none;
+    font-family: "Font Awesome";
+    color: #fbfbfb;
+    font-size: 16px;
+}
+
+.social_networks li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.social_networks {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
