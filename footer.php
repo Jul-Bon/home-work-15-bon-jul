@@ -17,25 +17,34 @@
     <div class="footer_part clearfix">
         <p class="copyright"><?php echo get_theme_mod('footer_copy'); ?></p>
         <ul class="social_networks">
-            <li>
-                <a href="<?php echo get_theme_mod('facebook_social'); ?>" target="_blank">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="<?php echo get_theme_mod('twitter_social'); ?>" target="_blank">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li><a href="<?php echo get_theme_mod('google_plus_social'); ?>" target="_blank">
-                    <i class="fa fa-google-plus" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="<?php echo get_theme_mod('instagram_social'); ?>" target="_blank">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-            </li>
+            <?php if (get_theme_mod('facebook_social') != ''): ?>
+                <li>
+                    <a href="<?php echo get_theme_mod('facebook_social'); ?>" target="_blank">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                </li>
+            <?php endif; ?>
+            <?php if (get_theme_mod('twitter_social') != ''): ?>
+                <li>
+                    <a href="<?php echo get_theme_mod('twitter_social'); ?>" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+            <?php endif; ?>
+            <?php if (get_theme_mod('google_plus_social') != ''): ?>
+                <li><a href="<?php echo get_theme_mod('google_plus_social'); ?>" target="_blank">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </a>
+                </li>
+            <?php endif; ?>
+            <?php if (get_theme_mod('instagram_social') != ''): ?>
+                <li>
+                    <a href="<?php echo get_theme_mod('instagram_social'); ?>" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+            <?php endif; ?>
+
         </ul>
     </div>
 </footer><!-- #colophon -->

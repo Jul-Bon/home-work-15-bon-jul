@@ -60,7 +60,7 @@ a {
 .menu-item a:hover {
     border-bottom: 5px solid #e8bf5d;
 }
-.current-menu-item {
+li.current-page-item {
     color: red;
 }
 
