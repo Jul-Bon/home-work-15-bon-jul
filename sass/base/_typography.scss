@@ -1,0 +1,277 @@
+/*-- BODY --*/
+body {
+    font-family: $main-font;
+    color: $middle-color;
+}
+
+/*-- NAVIGATION --*/
+.menu-item {
+    a {
+        color: $dark-color;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
+
+/*-- SECTION --*/
+.number {
+    color: $dark-color;
+    font-size: 195px;
+    line-height: 180px;
+    letter-spacing: 10px;
+    opacity: 0.1;
+}
+
+.caption {
+    h2 {
+        color: $dark-color;
+        font-family: $caption-font;
+        font-size: 31px;
+        letter-spacing: 1px;
+    }
+
+    p {
+        color: $middle-color;
+        font-family: $caption-font;
+        font-size: 21px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+}
+
+/*-- SECTION 01 --*/
+.box {
+    color: $dark-color;
+
+    h3 {
+        font-family: $caption-font;
+        font-size: 21px;
+    }
+
+    dt {
+        font-size: 21px;
+        font-weight: 700;
+    }
+
+    dd {
+        font-size: 16px;
+    }
+}
+
+.second {
+    p {
+        color: $middle-color;
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+
+/*-- SECTION 02 --*/
+.practis_area {
+    .number {
+        color: $first-main-color;
+    }
+
+    .caption {
+        h2 {
+            color: $first-main-color;
+        }
+
+        p {
+            color: $light-color;
+        }
+    }
+}
+
+.icon_limiter {
+    color: $accent-color;
+    font-family: $icon-font;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.about_service {
+    color: $first-main-color;
+
+    h3 {
+        font-family: $caption-font;
+        font-size: 21px;
+        line-height: 31px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+/*-- SECTION 03 --*/
+.team_list h5 {
+    font-family: $caption-font;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: $dark-color;
+}
+
+.position_held {
+    font-family: $main-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: $middle-color;
+}
+
+/*-- SECTION 04 --*/
+.clients {
+    color: $first-main-color;
+
+    .caption {
+        p {
+            color: $light-color;
+        }
+    }
+}
+
+.clients_say {
+    font-size: 14px;
+    line-height: 31px;
+    text-align: justify;
+
+    &:before {
+        opacity: 0.25;
+        color: $first-main-color;
+        font-family: $caption-font;
+        font-size: 86px;
+        font-weight: 400;
+    }
+}
+
+.review {
+    h5 {
+        font-family: $caption-font;
+        font-size: 21px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+}
+
+/*-- SECTION 05 --*/
+.articles_block a {
+    text-decoration: none;
+    color: $dark-color;
+}
+
+.article_description {
+    h3 {
+        color: $dark-color;
+        font-family: $caption-font;
+        font-size: 21px;
+        line-height: 31px;
+        margin-top: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+        font-style: italic;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 31px;
+    }
+}
+
+.author {
+    color: $dark-color;
+    font-style: normal;
+}
+
+.last_section {
+    font-size: 16px;
+    padding: 30px 0 20px;
+    color: $dark-color;
+}
+
+/*-- SECTION 06 --*/
+.asked_questions {
+    color: $first-main-color;
+
+    p {
+        color: $light-color;
+    }
+}
+
+.list_questions {
+    a {
+        color: $first-main-color;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+p.answer {
+    color: $dark-color;
+    font-size: 14px;
+    line-height: 31px;
+}
+
+/*-- SECTION 07 --*/
+.button {
+    color: $dark-color;
+    font-family: $caption-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+/*-- FOOTER --*/
+.copyright {
+    color: $more-light-color;
+    font-family: $copy-text;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social_networks {
+    a {
+        text-decoration: none;
+        font-family: $icon-font;
+        color: $very-light-color;
+        font-size: 16px;
+    }
+}
+
+h1 {
+    font-family: $caption-font;
+    font-size: 46px;
+    letter-spacing: 3px;
+    color: $first-main-color;
+}
+
+.lawyer {
+    font-family: $main-font;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+a.contact_button {
+    color: $dark-color;
+    font-family: $caption-font;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+

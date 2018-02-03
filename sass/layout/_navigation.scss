@@ -1,0 +1,37 @@
+/* NAVIGATION*/
+
+.menu_container {
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+.logo {
+    max-width: 168px;
+    float: left;
+    padding: 10px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu {
+    @include list-reset;
+    float: right;
+}
+
+.menu-item {
+    display: inline-block;
+
+    a {
+        display: inline-block;
+        padding: 10px 15px;
+        border-bottom: 5px solid transparent;
+
+        &:hover {
+            border-bottom: 5px solid $accent-color;
+        }
+    }
+}
+

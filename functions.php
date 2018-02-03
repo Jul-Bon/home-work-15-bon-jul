@@ -144,6 +144,11 @@ add_action('widgets_init', 'advocatusb_widgets_init');
  */
 function advocatusb_scripts()
 {
+
+    wp_enqueue_script('jquery');
+
+    wp_enqueue_script('js', get_template_directory_uri() . '/source-js/main.js');
+
     wp_enqueue_style('advocatusb-style', get_stylesheet_uri());
 
     wp_enqueue_script('advocatusb-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true);
@@ -194,10 +199,8 @@ function register_advocatusb_styles()
 {
     wp_register_style('font-awesome', get_template_directory_uri() . '/fonts/font-awesome/css/font-awesome.min.css');
     wp_enqueue_style('font-awesome');
-    wp_register_style('normalize', get_template_directory_uri() . '/css/normalize.css');
-    wp_enqueue_style('normalize');
-    wp_register_style('main', get_template_directory_uri() . '/css/main.css');
-    wp_enqueue_style('main');
+    wp_register_style('main-css', get_template_directory_uri() . '/css/main.css');
+    wp_enqueue_style('main-css');
 }
 
 

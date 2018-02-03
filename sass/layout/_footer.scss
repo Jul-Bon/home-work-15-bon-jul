@@ -1,0 +1,26 @@
+/*----- Footer -----*/
+
+.footer {
+    background-color: $dark-color;
+}
+
+.footer_part {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.copyright {
+    float: left;
+    margin: 0;
+}
+
+.social_networks {
+    @include list-reset;
+    float: right;
+
+    li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+}

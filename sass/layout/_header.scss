@@ -1,0 +1,47 @@
+/* MAIN IMAGE */
+
+.main_img {
+    position: relative;
+}
+
+.headline_position {
+    width: 60%;
+    position: absolute;
+    margin-left: 20%;
+    bottom: 10%;
+}
+
+.headline {
+    max-width: 100%;
+}
+
+h1 {
+    padding-left: 15px;
+    border-left: 2px solid #e8bf5d;
+    margin: 0;
+    float: left;
+}
+
+.lawyer {
+    display: block;
+}
+
+.headline {
+    a.contact_button {
+        display: inline-block;
+        max-width: 180px;
+        max-height: 50px;
+        border: none;
+        border-radius: 25px;
+        background-color: #e8bf5d;
+        padding: 14px 40px 14px 40px;
+        margin: 25px 0;
+        float: right;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}

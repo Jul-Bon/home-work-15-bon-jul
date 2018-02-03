@@ -1,0 +1,19 @@
+@mixin list-reset() {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin input-placeholder() {
+    color: #b9b9b9;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@mixin appearance() {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
