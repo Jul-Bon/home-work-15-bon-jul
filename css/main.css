@@ -60,6 +60,7 @@ a {
 .menu-item a:hover {
     border-bottom: 5px solid #e8bf5d;
 }
+
 li.current-page-item {
     color: red;
 }
@@ -70,15 +71,15 @@ li.current-page-item {
     position: relative;
 }
 
-.headline_position {
-    position: absolute;
+.headline_position{
     width: 60%;
-    left: 20%;
+    position: absolute;
+    left: 23%;
     bottom: 10%;
 }
 
 .headline {
-    max-width: 800px;
+    max-width: 770px;
 }
 
 h1 {
@@ -709,7 +710,7 @@ textarea {
 
 .social_networks li {
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .social_networks {

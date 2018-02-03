@@ -14,6 +14,8 @@
 
 get_header(); ?>
 
+
+
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
 
@@ -24,7 +26,6 @@ get_header(); ?>
                     <header>
                         <h2 class="page-title screen-reader-text"><?php single_post_title(); ?></h2>
                     </header>
-
                 <?php
                 endif;
 

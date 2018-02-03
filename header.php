@@ -15,7 +15,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo wp_get_document_title(); ?></title>
+    <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -64,16 +64,22 @@
             </div>
         </div>
         <div class="main_img">
-            <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>"
-                 width="<?php echo get_custom_header()->width; ?>" alt="Adam Suaere Lawyer"/>
+            <img src="<?php header_image(); ?>" alt="Adam Suaere Lawyer"/>
             <div class="headline_position">
                 <div class="headline clearfix">
                     <h1 class="main_text"><?php bloginfo('name'); ?><span
                                 class="lawyer"><?php bloginfo('description'); ?></span></h1>
-                    <a href="<?php echo get_theme_mod('url_button'); ?>" class="contact_button"><?php echo get_theme_mod('text_button'); ?></a>
+                    <?php if (get_theme_mod('button_display', 'show') == 'show') : ?>
+                        <a class="contact_button"
+                           href="<?php echo get_theme_mod('url_button'); ?>"
+                           style="background: <?php echo get_theme_mod('header_button_color', '#e8bf5d'); ?>">
+                            <?php echo get_theme_mod('text_button'); ?>
+                        </a>
+                    <?php endif ?>
                 </div>
             </div>
         </div>
+
     </header><!-- #masthead -->
 
     <div id="content" class="site-content">

@@ -198,8 +198,8 @@ function register_advocatusb_styles()
     wp_enqueue_style('normalize');
     wp_register_style('main', get_template_directory_uri() . '/css/main.css');
     wp_enqueue_style('main');
-
 }
+
 
 
 
