@@ -1,4 +1,4 @@
-* {
+h2, h3, h4, h5, p, dd {
     margin: 0;
     padding: 0;
 }
@@ -27,18 +27,11 @@ body {
     position: relative;
 }
 
-.number {
-    display: block;
-    position: absolute;
-    top: 0;
-}
-
 .caption {
-    max-width: 800px;
     border-left: 3px solid $accent-color;
     display: block;
     position: relative;
-    top: 35px;
+    top: 30px;
 
     h2 {
         padding: 0 20px 10px;
@@ -48,4 +41,10 @@ body {
         max-width: 800px;
         padding: 10px 20px 0;
     }
+}
+
+.number {
+    display: block;
+    position: absolute;
+    top: 0;
 }
