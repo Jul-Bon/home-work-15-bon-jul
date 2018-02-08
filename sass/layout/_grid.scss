@@ -15,15 +15,21 @@
         padding: 40px 0 35px;
     }
 
-    dt {
+    dl{
         padding-top: 10px;
-        display: inline;
+        margin: 0;
+    }
+
+    dt {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 10px;
     }
 
     dd {
         display: inline-block;
         max-width: 420px;
-        padding: 30px 20px 0;
+        padding: 0 0 30px 20px;
     }
 }
 
